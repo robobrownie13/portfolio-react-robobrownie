@@ -2,5 +2,30 @@
   background-color: #0e273c;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
+}
+.footer-container ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-container li {
+  margin: 2px;
+}
+
+.footer-container a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.footer-container a:hover {
+  background-color: #555;
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/Contact.css";
 
 function Contact() {
   // Set initial state for name, email, message, and form errors
@@ -61,7 +62,7 @@ function Contact() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form className="contact-form" onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input
           type="text"

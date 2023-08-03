@@ -1,8 +1,7 @@
-.name {
+.header {
   background-color: #4a306d;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
+  display: block;
+  padding: 0.5rem;
   color: #fff;
+  width: 100vw;
 }
