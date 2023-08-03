@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-robobrownie/static/css/main.073c9b0a.css",
+    "main.js": "/portfolio-react-robobrownie/static/js/main.1d437d59.js",
+    "static/js/787.d8a685e0.chunk.js": "/portfolio-react-robobrownie/static/js/787.d8a685e0.chunk.js",
+    "static/media/logo.svg": "/portfolio-react-robobrownie/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio-react-robobrownie/index.html",
+    "main.073c9b0a.css.map": "/portfolio-react-robobrownie/static/css/main.073c9b0a.css.map",
+    "main.1d437d59.js.map": "/portfolio-react-robobrownie/static/js/main.1d437d59.js.map",
+    "787.d8a685e0.chunk.js.map": "/portfolio-react-robobrownie/static/js/787.d8a685e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1d437d59.js"
+  ]
+}
