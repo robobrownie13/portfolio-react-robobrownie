@@ -3,16 +3,24 @@ const Navbar = ({ handleNavClick }) => {
     <nav>
       <ul>
         <li>
-          <button onClick={() => handleNavClick("home")}>Home</button>
+          <a href="/#home" onClick={() => handleNavClick("home")}>
+            Home
+          </a>
         </li>
         <li>
-          <button onClick={() => handleNavClick("about")}>About</button>
+          <a href="/#about" onClick={() => handleNavClick("about")}>
+            About
+          </a>
         </li>
         <li>
-          <button onClick={() => handleNavClick("portfolio")}>Portfolio</button>
+          <a href="/#portfolio" onClick={() => handleNavClick("portfolio")}>
+            Portfolio
+          </a>
         </li>
         <li>
-          <button onClick={() => handleNavClick("contact")}>Contact</button>
+          <a href="/#contact" onClick={() => handleNavClick("contact")}>
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
