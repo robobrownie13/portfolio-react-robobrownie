@@ -10,9 +10,9 @@ const Navbar = ({ handleNavClick }) => {
         </li>
         <li>
           <button onClick={() => handleNavClick("portfolio")}>Portfolio</button>
-          <li>
-            <button onClick={() => handleNavClick("Contact")}>Contact</button>
-          </li>
+        </li>
+        <li>
+          <button onClick={() => handleNavClick("contact")}>Contact</button>
         </li>
       </ul>
     </nav>

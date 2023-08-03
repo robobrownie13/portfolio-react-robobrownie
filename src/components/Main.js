@@ -15,8 +15,6 @@ const Main = () => {
   };
   const render = () => {
     switch (currentPage) {
-      case "home":
-        return <Home />;
       case "about":
         return <About />;
       case "portfolio":
