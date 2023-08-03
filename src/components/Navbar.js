@@ -2,7 +2,7 @@ import "../styles/Navbar.css";
 
 const Navbar = ({ handleNavClick }) => {
   return (
-    <nav>
+    <nav className="sidebar">
       <ul>
         <li>
           <a href="#home" onClick={() => handleNavClick("home")}>
