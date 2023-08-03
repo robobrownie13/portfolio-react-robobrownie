@@ -1,30 +1,34 @@
 import ProjectCard from "./ProjectCard";
 import { useState } from "react";
+import Oasis from "../assets/projectScreenshots/oasis-endangered-animals-blog.png";
+import Recipe from "../assets/projectScreenshots/recipes-now.png";
+import NoSQL from "../assets/projectScreenshots/noSQL-socia-media-api.png";
 const Portfolio = () => {
   const [projects] = useState([
     {
       id: 1,
-      title: "Oasis",
+      title: "Oasis: Endangered Animals Blog",
       description: "",
-      repositoryLink: "",
-      deploymentLink: "",
-      imageUrl: "",
+      repositoryLink: "https://github.com/robobrownie13/animal-blog-group-4-p2",
+      deploymentLink: "https://salty-badlands-43491.herokuapp.com/",
+      imageUrl: Oasis,
     },
     {
       id: 2,
       title: "Recipes Now",
       description: "",
-      repositoryLink: "",
-      deploymentLink: "",
-      imageUrl: "",
+      repositoryLink: "https://github.com/AvenP/recipe-search-app",
+      deploymentLink: "https://avenp.github.io/recipe-search-app/",
+      imageUrl: Recipe,
     },
     {
       id: 3,
-      title: "Quiz",
+      title: "Social Media API: NoSQL",
       description: "",
-      repositoryLink: "",
-      deploymentLink: "",
-      imageUrl: "",
+      repositoryLink: "https://github.com/robobrownie13/robo-social-media-api",
+      deploymentLink:
+        "https://drive.google.com/file/d/1d6_sbEWwNXGXwFEHNTyQ0cXeb9EeDQp3/view?pli=1",
+      imageUrl: NoSQL,
     },
   ]);
   const [activeCardId, setActiveCardId] = useState(null);
