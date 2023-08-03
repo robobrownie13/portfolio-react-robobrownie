@@ -3,6 +3,8 @@ import { useState } from "react";
 import Oasis from "../assets/projectScreenshots/oasis-endangered-animals-blog.png";
 import Recipe from "../assets/projectScreenshots/recipes-now.png";
 import NoSQL from "../assets/projectScreenshots/noSQL-socia-media-api.png";
+import "../styles/Portfolio.css";
+
 const Portfolio = () => {
   const [projects] = useState([
     {
@@ -50,13 +52,15 @@ const Portfolio = () => {
           </button>
         ))}
       </div>
-      {projects.map((project) => (
-        <ProjectCard
-          key={project.id}
-          project={project}
-          active={project.id === activeCardId}
-        />
-      ))}
+      <div className="project-container">
+        {projects.map((project) => (
+          <ProjectCard
+            key={project.id}
+            project={project}
+            active={project.id === activeCardId}
+          />
+        ))}
+      </div>
     </>
   );
 };
