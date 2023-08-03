@@ -1,0 +1,17 @@
+.project-card {
+  display: none;
+}
+
+.project-card.active {
+  display: block;
+}
+
+/* Optional: Add transitions for smoother visibility */
+.project-card {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.project-card.active {
+  opacity: 1;
+}
