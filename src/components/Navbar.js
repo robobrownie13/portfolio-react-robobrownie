@@ -3,31 +3,51 @@ import "../styles/Navbar.css";
 const Navbar = ({ handleNavClick }) => {
   return (
     <div className="navigation">
-      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
-      <label for="navi-toggle" class="navigation__button">
-        <span class="navigation_icon">&nbsp;</span>
+      <input
+        type="checkbox"
+        className="navigation__checkbox"
+        id="navi-toggle"
+      />
+      <label for="navi-toggle" className="navigation__button">
+        <span className="navigation_icon">&nbsp;</span>
       </label>
-      <div class="navigation__background">&nbsp;</div>
+      <div className="navigation__background">&nbsp;</div>
 
-      <nav class="navigation__nav">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#home" onClick={() => handleNavClick("home")}>
+      <nav className="navigation__nav">
+        <ul className="navigation__list">
+          <li className="navigation__item">
+            <a
+              href="#home"
+              className="navigation__link"
+              onClick={() => handleNavClick("home")}
+            >
               Home
             </a>
           </li>
-          <li class="navigation__item">
-            <a href="#about" onClick={() => handleNavClick("about")}>
+          <li classNam="navigation__item">
+            <a
+              href="#about"
+              className="navigation__link"
+              onClick={() => handleNavClick("about")}
+            >
               About
             </a>
           </li>
-          <li class="navigation__item">
-            <a href="#portfolio" onClick={() => handleNavClick("portfolio")}>
+          <li className="navigation__item">
+            <a
+              href="#portfolio"
+              className="navigation__link"
+              onClick={() => handleNavClick("portfolio")}
+            >
               Portfolio
             </a>
           </li>
-          <li class="navigation__item">
-            <a href="#contact" onClick={() => handleNavClick("contact")}>
+          <li className="navigation__item">
+            <a
+              href="#contact"
+              className="navigation__link"
+              onClick={() => handleNavClick("contact")}
+            >
               Contact
             </a>
           </li>
