@@ -28,9 +28,9 @@ const Main = () => {
 
   return (
     <div className="main-container">
-      <Header />
       <Navbar handleNavClick={handleNavClick} />
       {render()}
+      <Header />
       <Footer />
     </div>
   );
