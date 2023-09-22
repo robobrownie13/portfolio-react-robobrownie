@@ -75,8 +75,17 @@
 .navigation__link:hover,
 .navigation__link:active {
   background-position: 100%;
-  color: black;
+  color: #55c57a;
   transform: translateX(1rem);
+}
+
+.navigation__checkbox:checked ~ .navigation__background {
+  transform: scale(80);
+}
+
+.navigation__checkbox:checked ~ .navigation__nav {
+  opacity: 1;
+  width: 100%;
 }
 
 .navigation__icon {
@@ -129,8 +138,4 @@
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg);
-}
-
-.navigation__nav a:hover {
-  background-color: #790965;
 }
