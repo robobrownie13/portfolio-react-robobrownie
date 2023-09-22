@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-react-robobrownie/static/css/main.1003c41f.css",
+    "main.css": "/portfolio-react-robobrownie/static/css/main.bad5be37.css",
     "main.js": "/portfolio-react-robobrownie/static/js/main.f6713a0f.js",
     "static/js/787.d8a685e0.chunk.js": "/portfolio-react-robobrownie/static/js/787.d8a685e0.chunk.js",
     "static/media/oasis-endangered-animals-blog.png": "/portfolio-react-robobrownie/static/media/oasis-endangered-animals-blog.57ef884a449445b09f9f.png",
     "static/media/recipes-now.png": "/portfolio-react-robobrownie/static/media/recipes-now.323b473ee36c03b47452.png",
     "static/media/noSQL-socia-media-api.png": "/portfolio-react-robobrownie/static/media/noSQL-socia-media-api.601923a6db46d3270bc6.png",
     "index.html": "/portfolio-react-robobrownie/index.html",
-    "main.1003c41f.css.map": "/portfolio-react-robobrownie/static/css/main.1003c41f.css.map",
+    "main.bad5be37.css.map": "/portfolio-react-robobrownie/static/css/main.bad5be37.css.map",
     "main.f6713a0f.js.map": "/portfolio-react-robobrownie/static/js/main.f6713a0f.js.map",
     "787.d8a685e0.chunk.js.map": "/portfolio-react-robobrownie/static/js/787.d8a685e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1003c41f.css",
+    "static/css/main.bad5be37.css",
     "static/js/main.f6713a0f.js"
   ]
 }
