@@ -23,7 +23,7 @@
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient();
+  background-image: radial-gradient(#410979, #00ffda);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -140,5 +140,5 @@
 }
 
 .navigation__nav a:hover {
-  background-color: #555;
+  background-color: #790965;
 }
